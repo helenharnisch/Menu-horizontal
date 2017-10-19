@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid yellow;*/
+}
+
+ul {
+  /*outline: 1px solid blue;*/
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  background: #2e2e2a;
+  line-height: 35px;
+  /*overflow: auto;    damos esta propiedad para que pueda funcionar float en etiqueta contenedor para volver a darle propiedad de bloke*/
+}
+
+li {
+  /*outline: 1px solid red;*/
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  /*float: left;    elementos que vamos a flotar*/
+}
+
+a {
+  /*outline: 1px solid green;*/
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+a:hover {
+  background: #f9a91a;
+  color: #000;
+}
